@@ -181,6 +181,12 @@
     margin-left: 20px;
 }
 
+#links{
+    width: 135px;
+    max-height: 250px;
+    margin-left: 20px;
+}
+
 .anatomy__links-item{
     margin-right: 30px;
     margin-left: 20px;
