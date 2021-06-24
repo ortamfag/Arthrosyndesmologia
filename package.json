@@ -15,5 +15,7 @@
   "bugs": {
     "url": "https://github.com/ortamfag/Arthrosyndesmologia/issues"
   },
-  "homepage": "https://github.com/ortamfag/Arthrosyndesmologia#readme"
+  "homepage": "https://github.com/ortamfag/Arthrosyndesmologia#readme",
+  "dependencies": {},
+  "devDependencies": {}
 }
