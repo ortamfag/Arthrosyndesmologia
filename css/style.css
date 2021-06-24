@@ -1,0 +1,163 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+:root{
+    --light-green: #BADE9E;
+    --dark-green: #317718;
+    --super-dark-green: #2E7614;
+    --super-light-green: #E6F6DA;
+}
+
+/* boostrap container */
+.container {
+	width: 100%;
+	padding-right: 15px;
+	padding-left: 15px;
+	margin-right: auto;
+	margin-left: auto;
+}
+
+@media (min-width: 576px) {
+	.container {
+		max-width: 540px;
+	}
+}
+@media (min-width: 768px) {
+	.container {
+		max-width: 720px;
+	}
+}
+@media (min-width: 992px) {
+	.container {
+		max-width: 960px;
+	}
+}
+@media (min-width: 1200px) {
+	.container {
+		max-width: 1140px;
+	}
+}
+/* /bootstrap container */
+
+.flex {
+	display: flex;
+}
+
+.body{
+    font-family: 'Roboto', sans-serif;
+    font-size: 12px;
+
+    font-weight: 400;
+}
+
+/* header */
+.header{
+    background-color: var(--light-green);
+    padding-top: 15px;
+    padding-bottom: 15px;
+
+    justify-content: space-between;
+    align-items: center;
+
+    width: 100%;
+
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+#header__logo{
+    margin-left: 25px;
+}
+
+.header__title{
+    font-size: 18px;
+    align-self: center;
+
+    margin-left: 10px;
+
+    font-weight: 400;
+}
+
+.header__input-last{
+    margin-right: 25px;
+}
+
+.header__input{
+    justify-content: end;
+}
+
+.nav__item{
+    width: 75px;
+    height: 30px;
+
+    border: 1px solid #8AAC5F;
+    border-radius: 30px;
+
+    align-items: center;
+    justify-content: center;
+
+    margin-right: 20px;
+}
+
+.nav{
+    align-items: center;
+
+    margin-left: 5rem;
+}
+
+#header__input{
+    margin-right: 20px;
+}
+
+.header__input{
+    align-items: center;
+}
+
+.input{
+    width: 175px;
+    height: 30px;
+
+    background: rgba(255,255,255,0.8);
+    border-radius: 30px;
+
+    border: 0px;
+
+    font-size: 12px;
+
+    text-align: center;
+}
+
+
+/* header */
+
+/* main */
+
+.main__links-item{
+    color: var(--dark-green);
+}
+
+.main__links{
+    margin-top: 30px;
+    margin-left: 25px;
+
+    text-decoration: underline;
+}
+
+.main__title{
+    justify-content: center;
+    margin-top: 35px;
+}
+
+.main__h1{
+    align-self: center;
+    font-size: 36px;
+    line-height: 42px;
+    color: #2E7614;
+
+    font-weight: 400;
+}
+
+/* main */
+
