@@ -9,26 +9,26 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
 
-    <title>Document</title>
+    <title>Arthrosyndesmologia</title>
 </head>
 <body class="body">
     <header class="header flex">
         <div class="header__logo flex">
             <img id="header__logo" src="images/logo.svg">
             <h1 class="header__title">Arthrosyndesmologia</h1>
+
+            <nav class="nav flex">
+        
+                <a class="nav__item flex">Главная</a>
+                <a class="nav__item flex">Темы</a>
+                <a class="nav__item flex">Вопросы</a>
+                
+            </nav>
         </div>
 
-        <nav>
-        
-            <a class="nav__item">Главная</a>
-            <a class="nav__item">Темы</a>
-            <a class="nav__item">Вопросы</a>
-            
-        </nav>
-
-        <div class="header__input">
-            <p id="header__input"><input value="Пример: коленный сустав"></p>
-            <a class="nav__item header__input-last">Найти</a>
+        <div class="header__input flex">
+            <p id="header__input"><input class="input" name=search placeholder="Пример: коленный сустав"></p>
+            <a class="nav__item flex header__input-last">Найти</a>
         </div>
     </header>
 </body>
