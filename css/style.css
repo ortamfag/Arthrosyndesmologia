@@ -327,12 +327,61 @@
 }
 
 .images__paragraph{
-    text-align: center;
+    position: absolute;
     margin-top: 10px;
 }
 
+.images__paragraph-1{
+    bottom: 91.5%;
+    left: 63%;
+}
+
+.images__paragraph-2{
+    bottom: 71%;
+    left: 67%;
+}
+
+.images__paragraph-3{
+    bottom: 62%;
+    left: 67%;
+}
+
+.images__paragraph-4{
+    bottom: 55.5%;
+    left: 67%;
+}
+
+.images__paragraph-5{
+    bottom: 49%;
+    left: 66%;
+}
+
+.images__paragraph-6{
+    bottom: 39.5%;
+    left: 65%;
+}
+
+.images__paragraph-7{
+    bottom: 34%;
+    left: 64%;
+}
+
+.images__paragraph-8{
+    bottom: 22%;
+    left: 64%;
+}
+
+.images__paragraph-9{
+    bottom: 11%;
+    left: 64%;
+}
+
+
+
+
 .images__list-item{
     margin-right: 50px;
+    position: relative;
 }
 
 .images__list-item-first{
