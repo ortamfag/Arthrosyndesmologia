@@ -339,8 +339,10 @@
     margin-left: 50px;
 }
 
-.images__list{
-    max-width: 1000px;
+
+
+#images__list-item{
+    text-align: center;
 }
 
 
