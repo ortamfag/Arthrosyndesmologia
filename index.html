@@ -5,11 +5,23 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" type="text/css" href="css/style.css">
+    <link rel="stylesheet" type="text/css" href="css/slider.css">
+    <script defer src="js/slider.js"></script>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
 
     <title>Arthrosyndesmologia</title>
+    <script>
+        document.addEventListener('DOMContentLoaded', function () {
+          // инициализация слайдера
+          var slider = new SimpleAdaptiveSlider('.slider', {
+            autoplay: true,
+            interval: 10000,
+          });
+        });
+      </script>
+
 </head>
 <body class="body">
     <header class="header flex">
@@ -193,6 +205,56 @@
                 </div>
             </div>
         </section>
+
+        <!-- Разметка слайдера (html код) -->
+        <div class="slider">
+            <div class="slider__wrapper">
+              <div class="slider__items">
+                <div class="slider__item">
+                  <div class="slider__item_inner">
+                    <span class="slider__item_title">
+                      Lorem ipsum dolor
+                    </span>
+                    <span class="slider__items_description">
+                      Lorem ipsum dolor sit amet consectetur adipisicing elit. Enim nihil quo molestiae perspiciatis qui vero?
+                    </span>
+                  </div>
+                </div>
+                <div class="slider__item">
+                  <div class="slider__item_inner">
+                    <span class="slider__item_title">
+                      Lorem ipsum dolor
+                    </span>
+                    <span class="slider__items_description">
+                      Lorem ipsum dolor sit amet consectetur adipisicing elit. Enim nihil quo molestiae perspiciatis qui vero?
+                    </span>
+                  </div>
+                </div>
+                <div class="slider__item">
+                  <div class="slider__item_inner">
+                    <span class="slider__item_title">
+                      Lorem ipsum dolor
+                    </span>
+                    <span class="slider__items_description">
+                      Lorem ipsum dolor sit amet consectetur adipisicing elit. Enim nihil quo molestiae perspiciatis qui vero?
+                    </span>
+                  </div>
+                </div>
+                <div class="slider__item">
+                  <div class="slider__item_inner">
+                    <span class="slider__item_title">
+                      Lorem ipsum dolor
+                    </span>
+                    <span class="slider__items_description">
+                      Lorem ipsum dolor sit amet consectetur adipisicing elit. Enim nihil quo molestiae perspiciatis qui vero?
+                    </span>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <a class="slider__control slider__control_prev" href="#" role="button" data-slide="prev"></a>
+            <a class="slider__control slider__control_next" href="#" role="button" data-slide="next"></a>
+          </div>
     </main>
 </body>
 </html>
