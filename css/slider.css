@@ -8,38 +8,42 @@
 .slider {
     position: relative;
     overflow: hidden;
-    max-width: 600px;
+    max-width: 900px;
     margin-left: auto;
     margin-right: auto;
-  }
-  
+
+    margin-bottom: 40px;
+
+    border-radius: 30px;
+}
+
   /* стили для wrapper */
-  .slider__wrapper {
+.slider__wrapper {
     position: relative;
     overflow: hidden;
     background-color: #eee;
-  }
-  
+}
+
   /* стили для элемента, в котором непосредственно расположены элементы (слайды) */
-  .slider__items {
+.slider__items {
     display: flex;
     transition: transform 0.5s ease;
-  }
-  
+}
+
   /* класс для отключения transition */
-  .transition-none {
+.transition-none {
     transition: none;
-  }
-  
+}
+
   /* стили для элементов */
-  .slider__item {
+.slider__item {
     flex: 0 0 100%;
     max-width: 100%;
     position: relative;
-  }
-  
+}
+
   /* кнопки Prev и Next */
-  .slider__control {
+.slider__control {
     position: absolute;
     top: 50%;
     width: 40px;
@@ -123,15 +127,15 @@
 
 .slider__items {
     counter-reset: slide;
-  }
+}
 
-  .slider__item {
+.slider__item {
     height: 250px;
     position: relative;
     counter-increment: slide;
-  }
+}
 
-  .slider__item::after {
+.slider__item::after {
     content: counter(slide);
     position: absolute;
     top: 10px;
@@ -140,25 +144,25 @@
     font-style: italic;
     font-size: 32px;
     font-weight: bold;
-  }
+}
 
-  .slider__item:nth-child(1) {
+.slider__item:nth-child(1) {
     background: linear-gradient(45deg, #085078 10%, #85d8ce 90%);
-  }
+}
 
-  .slider__item:nth-child(2) {
+.slider__item:nth-child(2) {
     background: linear-gradient(to right, #dd1818, #333333);
-  }
+}
 
-  .slider__item:nth-child(3) {
+.slider__item:nth-child(3) {
     background: linear-gradient(to right, #093028, #237a57);
-  }
+}
 
-  .slider__item:nth-child(4) {
+.slider__item:nth-child(4) {
     background: linear-gradient(to right, #243B55, #141E30);
-  }
+}
 
-  .slider__item_inner {
+.slider__item_inner {
     position: absolute;
     left: 15%;
     right: 15%;
@@ -171,8 +175,15 @@
     flex-direction: column;
     align-items: center;
     justify-content: center;
-  }
+}
 
-  .slider__item_title {
-    font-size: 2rem;
-  }
+.slider__item_title {
+    font-size: 18px;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.slider__items_description{
+    font-size: 12px;
+}
+
