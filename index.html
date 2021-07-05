@@ -12,15 +12,16 @@
     <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
 
     <title>Arthrosyndesmologia</title>
+
     <script>
         document.addEventListener('DOMContentLoaded', function () {
           // инициализация слайдера
-          var slider = new SimpleAdaptiveSlider('.slider', {
+        var slider = new SimpleAdaptiveSlider('.slider', {
             autoplay: true,
             interval: 10000,
-          });
         });
-      </script>
+        });
+    </script>
 
 </head>
 <body class="body">
@@ -69,19 +70,22 @@
                 </div>
 
                 <div class="anatomy__lecture lecture">
-                    <h1 class="anatomy__title">Анатомия</h1>
+                    <h1 class="anatomy__title">Классификация сустава</h1>
 
                     <p class="paragraph-title">Коленный сустав. Art. genus.</p>
 
-                    <p class="paragraph">1. Простой; бедренная, большеберцовая кости. (ряд авторов считает сустав сложным и включает в его состав надколенник, хотя он находится внутри сухожилия четырехглавой мышцы бедра.
+                    <p class="paragraph"><strong>1. Простой</strong>Кости, образующие сустав: бедренная, большеберцовая. (ряд авторов считает сустав сложным и включает в его состав надколенник, однако он находится внутри сухожилия четырехглавой мышцы бедра и рассматривают его как сесамовидную кость).
 
-                    <p class="paragraph">2. Суставные поверхности медиального и латерального мыщелков бедренной и большеберцовых костей (суставная поверхность надколенника). Суставная капсула прикрепляется на бедренной кости чуть выше суставных поверхностей; на большеберцовой (и надколеннике) по краям суставных поверхностей.</p>
-                    <p class="paragraph">3. Мыщелковый.</p>
-                    <p class="paragraph">4. Комплексный, медиальный и латеральный мениски (meniscus medialis et lateralis).</p>
-                    <p class="paragraph">5. Некомбинированный.</p>
-                    <p class="paragraph">6. Двухосный: фронтальная ось – сгибание и разгибание; вертикальная ось – вращение (при сгибании голени).</p>
-                    <p class="paragraph">7. Внекапсулярные:<br><br> <strong>Малоберцовая коллатеральная связка</strong> (lig. collaterale fibulare) – от латерального надмыщелка бедренной кости к латеральной поверхности малоберцовой кости.<br><br> <strong>Косая подколенная связка</strong> (lig. popliteum obliquum) – вплетается в заднюю стенку суставной сумки, прикрепляется к задней поверхности медиального мыщелка большеберцовой кости.<br><br> <strong>Дугообразная подколенная связка</strong> (lig. popliteum arcuatum) – перекидывается с малоберцовой кости на большеберцовую (похоже на кольцевую связку лучевой кости).</p>
-                    <p class="paragraph-title">Связки надколенника (lig. patellae):</p>
+                    <p class="paragraph"><strong>2. Суставные поверхности</strong> медиального и латерального мыщелков бедренной и большеберцовых костей (суставная поверхность надколенника). Суставная капсула прикрепляется на бедренной кости чуть выше суставных поверхностей; на большеберцовой (и надколеннике) по краям суставных поверхностей.</p>
+                    <p class="paragraph"><strong>3. По форме</strong> Мыщелковый.</p>
+                    <p class="paragraph"><strong>4. Комплексный</strong>, имеются медиальный и латеральный мениски (meniscus medialis et lateralis).</p>
+                    <p class="paragraph"><strong>5. Некомбинированный.</strong></p>
+                    <p class="paragraph"><strong>6. Двухосный:</strong> фронтальная ось – сгибание и разгибание; вертикальная ось – вращение (при сгибании голени).</p>
+                    <p class="paragraph"><strong>7. Внекапсулярные связки </strong>: (lig. collaterale fibulare)</p>
+                    <p class="paragraph"> а) малоберцовая коллатеральная связка (lig. collaterale fibulare) – от латерального надмыщелка бедренной кости к латеральной поверхности малоберцовой кости. </p>
+                    <p class="paragraph"> б) косая подколенная связка (lig. popliteum obliquum) – вплетается в заднюю стенку суставной сумки, прикрепляется к задней поверхности медиального мыщелка большеберцовой кости. </p>
+                    <p class="paragraph"> в) дугообразная подколенная связка (lig. popliteum arcuatum) – перекидывается с малоберцовой кости на большеберцовую (похоже на кольцевую связку лучевой кости).</p>
+                    <p class="paragraph-title"><strong>Связки надколенника (lig. patellae):</strong></p>
                     <p class="paragraph">1. <strong>Медиальная</strong> и <strong>латеральная</strong>, поддерживающие связки надколенника (retinaculum patellae mediale et laterale).</p>
                     <p class="paragraph">2. <strong>Интракапсулярные</strong>:</p>
                     <p class="paragraph">Передняя крестообразная связка (lig. cruciatum anterius) – медиальный мыщелок и переднее межмыщелковое поле.</p>
@@ -198,6 +202,122 @@
                             <p class="test__subtitle">3. Имеются ли мениски в составе этого сустава?</p>
                             <p class="test__item"><input type="checkbox" name="option1" value="a1">Да</p>
                             <p class="test__item"><input type="checkbox" name="option2" value="a2">Нет</p>
+                        </form>
+                    </div>
+
+                    <div class="test__list flex">
+                        <form method="post">
+                            <p class="test__subtitle">4. Сколько осей вращения у сустава:</p>
+                            <p class="test__item"><input type="checkbox" name="option1" value="a1">Одна</p>
+                            <p class="test__item"><input type="checkbox" name="option2" value="a2">Две</p>
+                            <p class="test__item"><input type="checkbox" name="option2" value="a2">Три</p>
+                            <p class="test__item"><input type="checkbox" name="option2" value="a2">Четыре</p>
+                        </form>
+                    </div>
+
+                    <div class="test__list flex">
+                        <form method="post">
+                            <p class="test__subtitle">5. Какие кости принимают участие в образовании сустава:</p>
+                            <p class="test__item"><input type="checkbox" name="option1" value="a1">Бедренная кость</p>
+                            <p class="test__item"><input type="checkbox" name="option2" value="a2">Надколенник</p>
+                            <p class="test__item"><input type="checkbox" name="option2" value="a2">Малоберцовая кость</p>
+                            <p class="test__item"><input type="checkbox" name="option2" value="a2">Большеберцовая кость</p>
+                        </form>
+                    </div>
+
+                    <div class="test__list flex">
+                        <form method="post">
+                            <p class="test__subtitle">6. Передняя крестообразная связка начинается на медиальном мыщелке бедренной кости:</p>
+                            <p class="test__item"><input type="checkbox" name="option1" value="a1">Правда</p>
+                            <p class="test__item"><input type="checkbox" name="option2" value="a2">Ложь</p>
+                        </form>
+                    </div>
+
+                    <div class="test__list flex">
+                        <form method="post">
+                            <p class="test__subtitle">7. У коленного сустава три мениска (передний, медиальный  и латеральный): </p>
+                            <p class="test__item"><input type="checkbox" name="option1" value="a1">Правда</p>
+                            <p class="test__item"><input type="checkbox" name="option2" value="a2">Ложь</p>
+                        </form>
+                    </div>
+
+                    <div class="test__list flex">
+                        <form method="post">
+                            <p class="test__subtitle">8. Поперечная связка колена соединяет мыщелки бедренной кости:</p>
+                            <p class="test__item"><input type="checkbox" name="option1" value="a1">Правда</p>
+                            <p class="test__item"><input type="checkbox" name="option2" value="a2">Ложь</p>
+                        </form>
+                    </div>
+
+                    <div class="test__list flex">
+                        <form method="post">
+                            <p class="test__subtitle">9. Какие связки находятся внутри капсулы коленного сустава:</p>
+                            <p class="test__item"><input type="checkbox" name="option1" value="a1">Передняя крестообразная</p>
+                            <p class="test__item"><input type="checkbox" name="option2" value="a2">Медиальная крестообразная</p>
+                            <p class="test__item"><input type="checkbox" name="option2" value="a2">Малоберцовая коллатеральная связка</p>
+                            <p class="test__item"><input type="checkbox" name="option2" value="a2">Большеберцовая коллатеральная связка</p>
+                        </form>
+                    </div>
+
+                    <div class="test__list flex">
+                        <form method="post">
+                            <p class="test__subtitle">10. Сколько синовиальных сумок имеет коленный сустав: </p>
+                            <p class="test__item"><input type="checkbox" name="option1" value="a1">2</p>
+                            <p class="test__item"><input type="checkbox" name="option2" value="a2">3</p>
+                            <p class="test__item"><input type="checkbox" name="option2" value="a2">4</p>
+                            <p class="test__item"><input type="checkbox" name="option2" value="a2">5</p>
+                        </form>
+                    </div>
+
+                    <div class="test__list flex">
+                        <form method="post">
+                            <p class="test__subtitle">11. В коленном суставе возможно приведение и отведение: </p>
+                            <p class="test__item"><input type="checkbox" name="option1" value="a1">Да</p>
+                            <p class="test__item"><input type="checkbox" name="option2" value="a2">Нет</p>
+                        </form>
+                    </div>
+
+                    <div class="test__list flex">
+                        <form method="post">
+                            <p class="test__subtitle">12. Общий объем сгибания и разгибания (в градусах):</p>
+                            <p class="test__item"><input type="checkbox" name="option1" value="a1">100</p>
+                            <p class="test__item"><input type="checkbox" name="option2" value="a2">120</p>
+                            <p class="test__item"><input type="checkbox" name="option2" value="a2">150</p>
+                            <p class="test__item"><input type="checkbox" name="option2" value="a2">180</p>
+                        </form>
+                    </div>
+
+                    <div class="test__list flex">
+                        <form method="post">
+                            <p class="test__subtitle">13. Возможно ли вращение в коленном суставе в разогнутом состоянии?</p>
+                            <p class="test__item"><input type="checkbox" name="option1" value="a1">Да</p>
+                            <p class="test__item"><input type="checkbox" name="option2" value="a2">Нет</p>
+                        </form>
+                    </div>
+
+                    <div class="test__list">
+                        <form method="post">
+                            <p class="test__subtitle">14. Коленный сустав является комбинированным:</p>
+                            <p class="test__item"><input type="checkbox" name="option1" value="a1">Да</p>
+                            <p class="test__item"><input type="checkbox" name="option2" value="a2">Нет</p>
+                        </form>
+
+                        <div class="test__list flex">
+                            <form method="post">
+                                <p class="test__subtitle">15. В коленном суставе возможно вращение в диапазоне 40-60 градусов:</p>
+                                <p class="test__item"><input type="checkbox" name="option1" value="a1">Правда</p>
+                                <p class="test__item"><input type="checkbox" name="option2" value="a2">Ложь</p>
+                            </form>
+                        </div>
+                    </div>
+
+                    <div class="test__list flex">
+                        <form method="post">
+                            <p class="test__subtitle">16. На рентгенограмме суставная щель (во фронтальной плоскости):</p>
+                            <p class="test__item"><input type="checkbox" name="option1" value="a1">Прямая, изогнутая посередине</p>
+                            <p class="test__item"><input type="checkbox" name="option2" value="a2">Имеет форму буквы S</p>
+                            <p class="test__item"><input type="checkbox" name="option2" value="a2">Прямая</p>
+                            <p class="test__item"><input type="checkbox" name="option2" value="a2">Не определяется</p>
                         </form>
                     </div>
 
