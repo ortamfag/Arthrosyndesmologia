@@ -214,6 +214,12 @@ input:focus:-ms-input-placeholder      {opacity: 0; transition: opacity 0.3s eas
     margin-left: 20px;
 }
 
+#links-application{
+    width: 200px;
+    max-height: 250px;
+    margin-left: 20px;
+}
+
 .anatomy__links-item{
     margin-right: 30px;
     margin-left: 20px;
@@ -433,6 +439,19 @@ input:focus:-ms-input-placeholder      {opacity: 0; transition: opacity 0.3s eas
     left: 10%;
 }
 
+.images__xray{
+    margin-top: 60px;
+    justify-content: space-around;
+}
+
+.images__xray-item{
+    flex-direction: column;
+    align-items: center;
+}
+
+.images__xray-item p{
+    margin-top: 15px;
+}
 
 
 
@@ -500,3 +519,19 @@ input:focus:-ms-input-placeholder      {opacity: 0; transition: opacity 0.3s eas
 }
 /* test */
 /* test */
+
+/* application */
+
+.application__images p{
+    margin-top: 50px;
+}
+
+.application__item{
+    margin-top: 60px;
+    margin-left: 40px;
+
+    flex-direction: column;
+    align-items: center;
+}
+
+/* application */
