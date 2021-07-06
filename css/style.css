@@ -439,6 +439,102 @@ input:focus:-ms-input-placeholder      {opacity: 0; transition: opacity 0.3s eas
     left: 10%;
 }
 
+.images__paragraph-2-1{
+    bottom: 96%;
+    left: 58%;
+}
+
+.images__paragraph-2-2{
+    bottom: 86.5%;
+    left: 59%;
+}
+
+.images__paragraph-2-3{
+    bottom: 75%;
+    left: 61%;
+}
+
+.images__paragraph-2-4{
+    bottom: 68%;
+    left: 63%;
+}
+
+.images__paragraph-2-5{
+    bottom: 61%;
+    left: 65%;
+}
+
+.images__paragraph-2-6{
+    bottom: 50%;
+    left: 66%;
+}
+
+.images__paragraph-2-7{
+    bottom: 45%;
+    left: 65.5%;
+}
+
+.images__paragraph-2-8{
+    bottom: 37%;
+    left: 65%;
+}
+
+.images__paragraph-2-9{
+    bottom: 30.5%;
+    left: 64.5%;
+}
+
+.images__paragraph-2-10{
+    bottom: 24%;
+    left: 64%;
+}
+
+.images__paragraph-2-11{
+    bottom: 17.5%;
+    left: 64%;
+}
+
+.images__paragraph-2-12{
+    bottom: 9.5%;
+    left: 64%;
+}
+
+.images__paragraph-2-13{
+    bottom: 7%;
+    left: 12%;
+}
+
+.images__paragraph-2-14{
+    bottom: 18%;
+    left: 27%;
+}
+
+.images__paragraph-2-15{
+    bottom: 33%;
+    left: 21%;
+}
+
+.images__paragraph-2-16{
+    bottom: 39%;
+    left: 20%;
+}
+
+.images__paragraph-2-17{
+    bottom: 44.3%;
+    left: 28%;
+}
+
+.images__paragraph-2-18{
+    bottom: 55%;
+    left: 24%;
+}
+
+.images__paragraph-2-19{
+    bottom: 69.5%;
+    left: 19%;
+}
+
+
 .images__xray{
     margin-top: 60px;
     justify-content: space-around;
@@ -458,6 +554,7 @@ input:focus:-ms-input-placeholder      {opacity: 0; transition: opacity 0.3s eas
 .images__list-item{
     margin-right: 50px;
     position: relative;
+    margin-top: 50px;
 }
 
 .images__list-item-first{
