@@ -203,7 +203,7 @@ input:focus:-ms-input-placeholder      {opacity: 0; transition: opacity 0.3s eas
     border-radius: 30px;
 
     width: 135px;
-    max-height: 180px;
+    max-height: 270px;
 
     flex-direction: column;
     justify-content: center;
